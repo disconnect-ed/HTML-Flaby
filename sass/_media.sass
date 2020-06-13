@@ -1,0 +1,194 @@
+@media ( max-width: 1400px )
+  .header
+    background-image: url("img/header/bg.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+  .features
+    background-image: url("img/features/bg.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    &-block
+      padding-left: 0
+      margin: 0 auto
+
+@media ( max-width: 960px )
+  .menu_link
+    display: block
+    right: 15px !important
+    left: unset
+    top: 25px
+
+  .header
+    &-nav
+      &-links
+        display: none
+    &-block
+      max-width: 400px
+
+  .other
+    &-blocks
+      justify-content: space-around
+
+  .plan
+    &-cards
+      justify-content: space-around
+    &-card
+      margin-bottom: 30px
+
+  .about
+    &-slider
+      &__item
+        max-width: 600px
+
+@media ( max-width: 720px )
+
+  html
+    font-size: 8px
+
+  .section-header
+    margin-bottom: 70px
+
+  .header
+    background: #42A8F6
+    padding-bottom: 100px
+    &-nav
+      margin-bottom: 100px
+    &-block
+      margin: 0 auto
+      max-width: 100%
+
+  .features
+    padding: 50px 0 50px
+    &-block
+      padding-left: 0
+      margin: 0 auto
+      &__button
+        position: relative
+        left: 50%
+        margin-left: -75px
+
+  .other
+    &-block
+      margin-bottom: 50px
+
+  .great
+    &-block
+      text-align: center
+      max-width: 90%
+      &-w
+        margin: 0 auto
+        text-align: left
+      &__text
+        max-width: 100%
+
+  .services
+    padding: 50px 0 50px
+    &-cards
+      flex-wrap: wrap
+      justify-content: space-around
+      &__card
+        min-width: 50%
+
+  .footer
+    &-blocks
+      flex-wrap: wrap
+      justify-content: space-around
+    &-block
+      text-align: center
+      min-width: 30%
+      &_big
+        text-align: unset
+        min-width: 40%
+        padding-bottom: 50px
+    &-copyright
+      p
+        margin: 0
+
+  .great
+    padding: 0
+    &-blocks
+      flex-direction: column
+    &-block
+      width: 100%
+      padding-bottom: 50px
+
+  .about
+    &-slider
+      &__item
+        max-width: 500px
+        &__text
+          max-width: 400px
+
+@media ( max-width: 540px )
+
+  .header
+    padding-bottom: 50px
+    &-nav
+      margin-bottom: 50px
+    &-block
+      &__text
+        margin-bottom: 50px
+      &__buttons
+        flex-direction: column
+        button
+          margin-right: 0
+          position: relative
+          left: 50%
+          margin-left: -100px
+          &:first-child
+            margin-bottom: 30px
+
+  .subscribe
+    &-form
+      width: 300px
+      &-wrap
+        width: 290px
+
+  .services
+    &-cards
+      &__card
+        min-width: 80%
+        &__text
+          padding: 0
+
+  .plan
+    padding: 50px 0 50px
+    &-cards
+
+    &-card
+      min-width: 300px
+      &:hover
+        transform: none
+
+  .footer
+    &-blocks
+      padding-bottom: 0
+    &-block
+      padding-bottom: 50px
+      min-width: 50%
+      &_big
+        text-align: center
+        min-width: 100%
+    &-copyright
+      padding-bottom: 10px
+      flex-direction: column
+      p
+        padding: 0
+        border-right: none
+        text-align: center
+        margin-bottom: 20px
+
+  .about
+    padding-bottom: 60px
+    &-slider
+      &__item
+        max-width: 300px
+        &__text
+          max-width: 260px
+
+@media ( max-height: 500px )
+  .menu_point
+    line-height: 50px
